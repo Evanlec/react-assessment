@@ -1,3 +1,30 @@
+# Author: Evan LeCompte
+### Submitted Mon April 1st, 2019
+
+-------------------
+
+# Install instructions
+
+
+Clone repository
+
+    $ git clone git@github.com:Evanlec/react-assessment.git
+
+Install dependencies
+
+    $ cd react-assessment
+    $ npm install
+
+Build one-time
+
+    $ npm run build
+
+Build continuously (on any file change to script.jsx)
+
+    $ npm run dev
+
+-------------------
+
 # Assessment
 
 The goal of this project is to use ReactJS capabilities and its paradigms by creating a TODO app. This app should be able to add TODOs and track the number of total TODOs as well as the number of unchecked TODOs.
