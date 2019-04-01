@@ -1,0 +1,40 @@
+{
+  "name": "react-assessment",
+  "version": "1.0.0",
+  "description": "React assessment",
+  "main": "script.js",
+  "private": true,
+  "scripts": {
+    "build": "babel script.jsx -o script.js",
+    "dev": "babel -w script.jsx -o script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evanlec/react-assessment.git"
+  },
+  "author": "Evan LeCompte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evanlec/react-assessment/issues"
+  },
+  "homepage": "https://github.com/Evanlec/react-assessment#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-scripts": "^2.1.8"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
